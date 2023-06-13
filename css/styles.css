@@ -251,7 +251,7 @@ img {
 
   color: var(--main-txt-cl);
 
-  transition: color 250ms var(--transition-duration-and-function);
+  transition: color var(--transition-duration-and-function);
 }
 
 .active {
@@ -873,9 +873,8 @@ img {
 
   background-color: var(--overlay-background-color);
   color: var(--overlay-text-color);
-
+}
   .cards-link:hover .overlay,
   .cards-link:focus .overlay {
     transform: translate(0, 0);
   }
-}
